@@ -10,6 +10,7 @@
 </p>
 <p>
     Status: :rocket: deployed </br>
+    https://rqguzman-behold-devchallenges.netlify.app/
     
 </p>
 
