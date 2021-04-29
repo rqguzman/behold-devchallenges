@@ -23,7 +23,12 @@
               Already have an account? <a href="#">Sign in</a>
             </p>
 
-            <form onsubmit="alert('Success')" autocomplete="off">
+            <form name="createAccount" method="POST" netlify-honeypot="bot-field" data-netlify="true" autocomplete="off">
+              <input type="hidden" name="form-name" value="createAccount">
+              <p class="hidden">
+                  <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+              </p>
+
               <div class="input">
                 <label for="email-address">Email Address</label>
                 <input type="email" required id="email-address" />

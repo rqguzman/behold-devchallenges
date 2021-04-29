@@ -1,4 +1,5 @@
 # BEHOLD
+</br>![index_1](https://github.com/rqguzman/assets/blob/main/snapshots/behold/web.png)
 <p>
     This is an educational project provided by  Thu Nghiem, from </br>
     devChallenges(https://devchallenges.io/) </br>
@@ -8,8 +9,13 @@
     I've followed this tutorial in order to improve my CSS and HTML skills.
 </p>
 <p>
-    Status: :construction: ongoing </br>
+    Status: :rocket: deployed </br>
+    
 </p>
+
+### MOBILE SNAPSHOTS
+![mobile_plus](https://github.com/rqguzman/assets/blob/main/snapshots/behold/mobile_plus.png)
+![mobile_small](https://github.com/rqguzman/assets/blob/main/snapshots/behold/mobile_5.png)
 
 ## LICENCE
 

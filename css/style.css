@@ -22,7 +22,6 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-
 p {
     max-width: 600px;
 }
@@ -35,6 +34,11 @@ a {
 .background-overlay {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hidden {
+  visibility: hidden;
+  height: 0;
 }
 
 #container {
@@ -165,6 +169,18 @@ button {
   padding: 10px 24px;
   background-color: var(--primary-color);
   color: #fff;
+  cursor: pointer;
+}
+
+button:active {
+  -webkit-transform: scale(0.98);
+  -moz-transform: scale(0.98);
+  -o-transform: scale(0.98);
+  transform: scale(0.98);
+}
+
+button:focus {
+  outline: 0;
 }
 
 @media only screen and (max-width: 660px) {
