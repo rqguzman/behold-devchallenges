@@ -9,93 +9,96 @@
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
-    <div id="container">
-      <div class="logo-container">
-        <img src="./img/behold-logo.png" alt="Behold" />
-      </div>
+    <div class="background-overlay">
+      <div id="container">
+        <div class="logo-container">
+          <img src="./img/behold-logo.png" alt="Behold" />
+        </div>
 
-      <div class="panel-container">
-        <div class="panel">
-          <h1 class="panel__heading">Create an account</h1>
+        <div class="panel-container">
+          <div class="panel">
+            <h1 class="panel__heading">Create an account</h1>
 
-          <p class="panel__subheading">
-            Already have an account? <a href="#">Sign in</a>
-          </p>
+            <p class="panel__subheading">
+              Already have an account? <a href="#">Sign in</a>
+            </p>
 
-          <form onsubmit="alert('Success')" autocomplete="off">
-            <div class="input">
-              <label for="email-address">Email Address</label>
-              <input type="email" required id="email-address" />
-            
-              <div class="input__indicator"></div>
-            </div>
-            
-            <div class="name">
+            <form onsubmit="alert('Success')" autocomplete="off">
               <div class="input">
-                <label for="first-name">Name</label>
-                <input type="text" required id="first-name" />
-             
-                <div class="input__indicator"></div>
-              </div>
-             
-              <div class="input">
-                <label for="last-name">Last name</label>
-                <input type="text" required id="last-name" />
+                <label for="email-address">Email Address</label>
+                <input type="email" required id="email-address" />
               
                 <div class="input__indicator"></div>
               </div>
-            </div>
-            
-            <div class="input">
-              <label for="password">Password</label>
-              <input type="password" required id="password" />
-            
-              <div class="input__indicator"></div>
-            </div>
-
-            <div class="date-of-birth">
-              <h6 class="date-of-birth__heading">Date of birth</h6>
-
-              <div class="date-of-birth__inputs">
-                <div class="dropdown">
-                  <label for="month">Month</label>
-  
-                  <select name="month" id="month">
-                    <option value="january">January</option>
-                    <option value="february">February</option>
-                    <option value="March">March</option>
-                    <option value="April">April</option>
-                    <option value="May">May</option>
-                    <option value="June">June</option>
-                    <option value="July">July</option>
-                  </select>
-                </div>
-  
+              
+              <div class="name">
                 <div class="input">
-                  <label for="day">Day</label>
-                  <input type="number" required id="day" min="1" max="31" />
+                  <label for="first-name">Name</label>
+                  <input type="text" required id="first-name" />
+              
+                  <div class="input__indicator"></div>
+                </div>
+              
+                <div class="input">
+                  <label for="last-name">Last name</label>
+                  <input type="text" required id="last-name" />
                 
                   <div class="input__indicator"></div>
                 </div>
-  
-                <div class="input">
-                  <label for="year">Year</label>
-                  <input type="number" required id="year" min="1900" max="2020" />
-               
-                  <div class="input__indicator"></div>
+              </div>
+              
+              <div class="input">
+                <label for="password">Password</label>
+                <input type="password" required id="password" />
+              
+                <div class="input__indicator"></div>
+              </div>
+
+              <div class="date-of-birth">
+                <h6 class="date-of-birth__heading">Date of birth</h6>
+
+                <div class="date-of-birth__inputs">
+                  <div class="dropdown">
+                    <label for="month">Month</label>
+    
+                    <select name="month" id="month">
+                      <option value="january">January</option>
+                      <option value="february">February</option>
+                      <option value="March">March</option>
+                      <option value="April">April</option>
+                      <option value="May">May</option>
+                      <option value="June">June</option>
+                      <option value="July">July</option>
+                    </select>
+                  </div>
+    
+                  <div class="input">
+                    <label for="day">Day</label>
+                    <input type="number" required id="day" min="1" max="31" />
+                  
+                    <div class="input__indicator"></div>
+                  </div>
+    
+                  <div class="input">
+                    <label for="year">Year</label>
+                    <input type="number" required id="year" min="1900" max="2020" />
+                
+                    <div class="input__indicator"></div>
+                  </div>
                 </div>
               </div>
-            </div>
-           
-            <p class="consents">
-              By clicking Create account, I agree that I have read and accepted
-              the <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.
-            </p>
+            
+              <p class="consents">
+                By clicking Create account, I agree that I have read and accepted
+                the <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.
+              </p>
 
-            <button type="submit">Create account</button>
-          </form>
+              <button type="submit">Create account</button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
+    <script src="./js/script.js"></script>
   </body>
 </html>
